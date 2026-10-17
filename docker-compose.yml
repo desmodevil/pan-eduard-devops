@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: pan-eduard-devops
+    container_name: pan-eduard-container
+    environment:
+      STUDENT_NAME: Eduard
+      STUDENT_SURNAME: Pan
+      STUDENT_GROUP: IT2-2312
+      STUDENT_ID: "37619"
